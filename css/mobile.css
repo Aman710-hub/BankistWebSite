@@ -1,0 +1,159 @@
+/* header title */
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1.35;
+  }
+
+  .header__img {
+    width: 80%;
+    transform: translateY(-1rem);
+    justify-self: end;
+  }
+}
+/* nav btn */
+@media only screen and (max-width: 955px) {
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    display: inline-block;
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  /* navbar */
+  .nav {
+    padding: 10px 15px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    height: 11rem;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.5rem;
+  }
+
+  .features__img {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .nav__logo {
+    height: 4rem;
+  }
+
+  .nav__item {
+    margin-left: 3rem;
+  }
+
+  .first-child {
+    margin-left: 0rem;
+  }
+  /* h1 */
+  h1 {
+    font-size: 3rem;
+    line-height: 1.35;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .section__header {
+    font-size: 2.5rem;
+  }
+
+  .features__header {
+    font-size: 1.5rem;
+  }
+
+  .header__img {
+    width: 100%;
+    transform: translateY(-1rem);
+    justify-self: end;
+  }
+
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    width: 165px;
+    font-size: 1.5rem;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    gap: 4rem;
+    margin: 0rem;
+    width: 100%;
+  }
+
+  .imgGrow {
+    grid-row: 3 / 4;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+  }
+
+  .testimonial__text {
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  #section--3 {
+    padding-bottom: 17rem;
+  }
+
+  .slider {
+    height: 50rem;
+  }
+
+  .footer__link {
+    font-size: 1.3rem;
+  }
+}
+
+/* 580px */
+@media only screen and (max-width: 580px) {
+  .testimonial::before {
+    top: -1rem;
+    font-size: 15rem;
+  }
+
+  .slide {
+    height: 100%;
+  }
+
+  .testimonial__text {
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  #section--3 {
+    padding-bottom: 17rem;
+  }
+
+  .slider {
+    height: 60rem;
+  }
+
+  .operations__content {
+    font-size: 1.7rem;
+  }
+
+  .section--sign-up .btn {
+    font-size: 1.4rem;
+  }
+
+  .footer__link {
+    font-size: 1rem;
+  }
+}
